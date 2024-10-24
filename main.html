@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Simple JavaScript function -->
+    <script>
+        function showAlert() {
+            alert("Welcome to My Portfolio!");
+        }
+    </script>
+</head>
+<body onload="showAlert()">
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section with Image and Text -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="img/profile.jpg" alt="Profile Picture" class="profile-img">
+            <p>Hello! I'm a web designer and developer with a passion for creating beautiful, functional websites.</p>
+        </section>
+
+        <!-- Projects Section with Images and Links -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul class="project-list">
+                <li><img src="img/project1.jpg" alt="Project 1"> <a href="#">Project 1</a></li>
+                <li><img src="img/project1.jpg" alt="Project 2"> <a href="#">Project 2</a></li>
+                <li><img src="img/project1.jpg" alt="Project 3"> <a href="#">Project 3</a></li>
+                <li><img src="img/project1.jpg" alt="Project 4"> <a href="#">Project 4</a></li>
+                <li><img src="img/project1.jpg" alt="Project 5"> <a href="#">Project 5</a></li>
+            </ul>
+        </section>
+
+        <!-- Experience Section with Table -->
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>ABC Corp</td>
+                    <td>Front-End Developer</td>
+                    <td>2018-2020</td>
+                </tr>
+                <tr>
+                    <td>XYZ Inc.</td>
+                    <td>Web Designer</td>
+                    <td>2020-2023</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact Section with Animation -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to <a href="mailto:youremail@example.com">email me</a> or find me on <a href="#">LinkedIn</a>!</p>
+            <button id="contact-btn">Get in Touch</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
